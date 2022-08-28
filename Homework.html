@@ -1,0 +1,58 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<th>電影類型</th>
+	<td>
+		<select name="片種">
+			<option value="恐怖片"></option>
+			<option value="驚悚片"></option>
+			<option value="懸疑片"></option>
+			<option value="動作片"></option>
+			<option value="喜劇片"></option>
+			<option value="紀錄片"></option>
+			<option value="劇情片"></option>
+		</select>
+	</td>
+
+	<hr>
+
+	<image src="movie">
+
+	<hr>
+
+	<div id="menu">
+		<ul id="menulist">
+			<li><a href="#">近期上映</a>
+				<ul class="submenu">
+					<li><a href="#">歐美</a></li>
+					<li><a href="#">日韓</a></li>
+					<li><a href="#">其他</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">經典好片</a>
+				<ul class="submenu">
+					<li><a href="#">歐美</a></li>
+					<li><a href="#">日韓</a></li>
+					<li><a href="#">其他</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#">我的清單</a></li>
+		</ul>
+	</div>
+
+	<div>
+		年齡:<input type="number" name="age"/>
+		<input type="submit" name="提交"/>
+		if(age<15 || age>50){
+			alert("年齡超過範圍")
+		}
+	</div>
+
+</body>
+</html>
